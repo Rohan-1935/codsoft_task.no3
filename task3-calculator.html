@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculator</title>
+        <link rel="stylesheet" href="./task3-calculator.css">
+    </head>
+    <body>
+        <h1 class="text"> Calculator</h1>
+        <div class="calculator">
+            <p class="brand"> CODESOFT </p>
+        <input type="text" id="input" class="calculator-screen"/>
+
+        <div class="btn-containor">
+            <button class="btn" onclick="pressKey(1)"> 1</button>
+            <button class="btn" onclick="pressKey(2)"> 2</button>
+            <button class="btn" onclick="pressKey(3)"> 3</button>
+            <button class="btn special-btn" onclick="pressKey('+')"> +</button>
+
+            <button class="btn" onclick="pressKey(4)"> 4</button>
+            <button class="btn" onclick="pressKey(5)"> 5</button>
+            <button class="btn" onclick="pressKey(6)"> 6</button>
+            <button class="btn special-btn" onclick="pressKey('-')"> -</button>
+
+            <button class="btn" onclick="pressKey(7)"> 7</button>
+            <button class="btn" onclick="pressKey(8)"> 8</button>
+            <button class="btn" onclick="pressKey(9)"> 9</button>
+            <button class="btn special-btn" onclick="pressKey('*')"> *</button>
+
+            <button class="btn special-btn" onclick="pressKey('.')"> .</button>
+            <button class="btn" onclick="pressKey(0)"> 0</button>
+            <button class="btn special-btn" onclick="calculate()"> =</button>
+            <button class="btn special-btn" onclick="pressKey('/')"> /</button>
+
+        </div>
+        
+        </div>
+
+        <script src="./task3-calculator.js"></script>
+
+       
+    </body>
+</html>
